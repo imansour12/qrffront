@@ -183,7 +183,7 @@ export default function FillInfo() {
           </Typography>
           <QRCodeCanvas
             style={{ marginBottom: 20 }}
-            value={window.location.origin + "?id" + resid}
+            value={window.location.origin + "?id=" + resid}
           />
         </>
       ) : null}
